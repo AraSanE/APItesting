@@ -1,16 +1,11 @@
 name: Integration
 
-on:
-    [pull_request]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+on: [pull_request]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
-
     API_Testing:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -20,15 +15,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-        with: 
-          node-version: '14.x'
+        with:
+          node-version: "14.x"
       - run: npm run api-testing
-      
-  
-      
-
-    
-      
-      
-      
-      
