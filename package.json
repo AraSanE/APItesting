@@ -1,0 +1,27 @@
+{
+  "name": "files",
+  "version": "1.0.0",
+  "description": "Deliverable2 test algo algo 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-testing": "newman run './collection/CaspstoneProject.collection.json' -e './environment/Env.postman_environment.json'" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AraSanE/APItesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AraSanE/APItesting/issues"
+  },
+  "homepage": "https://github.com/AraSanE/APItesting#readme",
+  "dependencies": {
+    "testcafe": "1.16.1"
+  },
+  "devDependencies": {
+    "newman": "5.3.0"
+  }
+}
