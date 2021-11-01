@@ -4,8 +4,8 @@
   "description": "Deliverable2 test algo algo 2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "api-testing": "newman run './collection/CaspstoneProject.collection.json' -e './environment/Env.postman_environment.json'" 
+    
+  "api-testing": "newman run './collection/CapstoneProject.collection.json' -e './environment/Env.postman_environment.json'" 
   },
   "repository": {
     "type": "git",
